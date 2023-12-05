@@ -6,11 +6,11 @@
         xmlns:local="clr-namespace:ProjectSDB"
         mc:Ignorable="d"
         Title="MyCommsPol" Height="450" Width="800">
-    <Grid Height="NaN" Margin="0,-12,0,-6" Width="NaN">
+    <Grid Height="NaN" Margin="0,-12,-9,-6" Width="NaN">
         <Rectangle HorizontalAlignment="Left" Height="428" VerticalAlignment="Center" Width="60" Fill="#FF4A4444"/>
         <Rectangle HorizontalAlignment="Left" Height="428" Margin="60,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="130" Fill="#FF774949"/>
         <Label Content="ServerName" HorizontalAlignment="Left" Margin="67,22,0,0" VerticalAlignment="Top" Height="30" Width="118" Foreground="White" BorderBrush="#FF4E4343" FontWeight="Bold" FontSize="16"/>
-        <Label Content="CurrentChannel" HorizontalAlignment="Left" Margin="190,10,0,0" VerticalAlignment="Top" Height="30" Width="610" FontSize="14" FontWeight="Bold"/>
+        <Label Content="CurrentChannel" HorizontalAlignment="Left" Margin="190,13,0,0" VerticalAlignment="Top" Height="30" Width="600" FontSize="14" FontWeight="Bold" Background="{x:Null}" BorderBrush="#FF5B5454"/>
         <Button x:Name="Options" Content="ChOpt" HorizontalAlignment="Left" Height="25" Margin="723,12,0,0" VerticalAlignment="Top" Width="55" RenderTransformOrigin="5.547,-13.7" Click="Button_Click"/>
         <Button Content="UserList" HorizontalAlignment="Left" Height="26" Margin="652,12,0,0" VerticalAlignment="Top" Width="66"/>
         <TextBlock HorizontalAlignment="Left" Height="23" Margin="247,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564" FontSize="16"><Run Text="UserName1"/><LineBreak/><Run/><LineBreak/></TextBlock>
@@ -49,5 +49,10 @@
         <Label Content="Label" HorizontalAlignment="Left" Margin="96,452,0,0" VerticalAlignment="Top"/>
         <Label Content="LoggedIn" HorizontalAlignment="Left" Margin="60,403,0,0" VerticalAlignment="Top" Height="44" Width="130" Background="#FFBB8A8A" FontWeight="Bold" FontSize="18" Foreground="#FFFFF8F8"/>
         <Label HorizontalAlignment="Left" Height="46" Margin="0,403,0,0" VerticalAlignment="Top" Width="60" Content="Avatar" Background="#FF6F5D5D" BorderBrush="Black" Foreground="White"/>
+        <Border BorderBrush="#FF635353" BorderThickness="1" HorizontalAlignment="Left" Height="0" Margin="62,52,0,0" VerticalAlignment="Top" Width="133"/>
+        <Rectangle HorizontalAlignment="Left" Height="73" Margin="190,45,0,0" Stroke="#FF524E4E" VerticalAlignment="Top" Width="596"/>
+        <Rectangle HorizontalAlignment="Left" Height="73" Margin="190,122,0,0" Stroke="#FF524E4E" VerticalAlignment="Top" Width="596"/>
+        <Rectangle HorizontalAlignment="Left" Height="73" Margin="190,203,0,0" Stroke="#FF524E4E" VerticalAlignment="Top" Width="596"/>
+        <Rectangle HorizontalAlignment="Left" Height="73" Margin="190,282,0,0" Stroke="#FF524E4E" VerticalAlignment="Top" Width="596"/>
     </Grid>
 </Window>
